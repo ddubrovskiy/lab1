@@ -2,6 +2,7 @@
 #include <fstream>
 #include <algorithm>
 
+
 void AneuMeshLoader::loadMesh(const std::string& fileName, const std::string& format) {
     std::ifstream file(fileName + format);
     if (!file.is_open()) {
